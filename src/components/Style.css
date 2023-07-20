@@ -1,0 +1,11 @@
+
+@media only screen and (max-width: 600px) {
+	.breadcrumbs .crumb {
+		display: none;
+	}
+
+	.breadcrumbs .crumb:first-child,
+	.breadcrumbs .crumb:last-child {
+		display: inline-block;
+	}
+}
